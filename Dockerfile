@@ -19,6 +19,7 @@ RUN mvn clean package
 FROM tomcat:8.5-jre8
 
 # Определяем аргумент для контекста веб-приложения
+
 ARG WEBCONTEXT=simplewebappdev
 
 # Копируем собранный файл .war из предыдущего этапа в директорию webapps Tomcat
