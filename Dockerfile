@@ -1,4 +1,4 @@
-FROM java:8
+FROM java:8.
 ARG WEBCONTEXT=simplewebappdev
 
 RUN curl -O http://archive.apache.org/dist/tomcat/tomcat-8/v8.0.20/bin/apache-tomcat-8.0.20.tar.gz
